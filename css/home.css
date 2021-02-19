@@ -1,3 +1,20 @@
+/* ============ Menu Header ==============*/
+
+/* .navbar-desk{
+
+} */
+
+.subNavBar{
+    padding-top: 0;
+    padding-bottom: 0;
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+}
+
+.navbar-grid{
+    width: auto;
+}
+
 .navbar-grid span > a{
     margin-right: 15px;
     font-size: 13px;
@@ -8,3 +25,282 @@
 .hover-a:hover{
     opacity: 0.8;
 }
+
+.nav-link-hover, li:hover > ul {
+    display: block;
+}
+
+.dropHover{
+    top: 43px;
+    left: auto;
+    box-shadow: 3px 3px 6px rgb(0 0 0 / 16%);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border:0;
+}
+
+.dropHover a{
+    border-bottom: 1px solid #EEE;
+    text-transform: none;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 700;
+    padding: 5px;
+    white-space: nowrap;   
+    text-transform: uppercase;
+    color: #8D8D8D;
+}
+
+.dropHover a:hover{
+    color: red;
+}
+
+.active-link{
+    padding: 13px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #8D8D8D !important;
+}
+
+.active-link:hover{
+    background-color: #fafafa;
+    box-shadow: 3px 3px 6px rgb(0 0 0 / 16%);
+    /* padding: 0 7px 7px; */
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: max-content;
+}
+
+
+.carousel-inner img{
+    /* height: 1200px; */
+    object-fit: contain;
+}
+
+.btn-Carroussel{
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 80px;
+    margin: auto;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    background-color: black;
+}
+
+.service-item {
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+.service-item svg {
+    font-size: 32px;
+    /* height: 30px; */
+    display: inline-block;
+    color: rgb(0, 132, 74);
+}
+.service-item p {
+    color: #00844A;
+    margin: 0 auto;
+    margin-bottom: -4px;
+    text-transform: uppercase;
+    font: 400 14px "Source Sans Pro", sans-serif;
+    line-height: 10px;
+}
+
+.service-item div {
+    text-align: left;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.service-item span {
+    color: #999999;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font: 400 10px "Source Sans Pro", sans-serif;
+}
+
+/* ============ Fim Menu Header ==============*/
+
+/* ============ conteudo ==============*/
+
+.title-avk {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px 15px 0px;
+    position: relative;
+}
+
+.title-avk p {
+    background: #FFF;
+    color: #DD7B54;
+    display: inline-block !important;
+    font: 400 26px "Source Sans Pro", sans-serif;
+    margin: 0 auto;
+    padding: 0px 10px;
+    position: relative;
+    z-index: 99;
+}
+
+.title-avk div {
+    background: #EEE;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    z-index: 9;
+    top: 17px;
+    left: 0px;
+}
+
+.title-avk p span.title {
+    padding: 0px;
+    color: #F8A774;
+    font: 400 26px "Source Sans Pro", sans-serif;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 10px 0px 10px 0px;
+}
+
+.cardHeader{
+    padding: 0;
+}
+
+.cardHeader img{
+    max-height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.newsletter-footer {
+    background: #00844A;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #EEE;
+}
+
+.newsletter-footer p span {
+    /* color: #00844A; */
+    text-decoration: underline;
+    padding: 0px 5px;
+    font: 700 16px "Source Sans Pro", sans-serif;
+}
+
+.contato-footer-vk ul li {
+    margin-bottom: 10px;
+    text-align: left;
+}
+.contato-footer-vk ul li p {
+    text-transform: none;
+    font: 400 16px 'Source Sans Pro', sans-serif;
+    color: #999999;
+}
+
+/* ============ Fim conteudo ==============*/
+
+/* ============ Utilits ==============*/
+
+.mt3{
+    margin-top: 30px;
+}
+
+/* ============ Fim utilis ==============*/
+
+
+/* ============ Responsivo ==============*/
+
+@media only screen and (min-width: 700px) {
+    .navbar-grid{
+        width: 100%;
+    }
+    .service-item {
+        width: auto !important;
+        z-index: 1;
+        position: relative;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .service-content {
+        width: 25%;
+        border-bottom: none;
+        border-right: 1px solid #DDDDDD;
+        margin-bottom: 15px;
+    }
+    .title-avk {
+        width: 100%;
+        text-align: left;
+        margin: 10px 0px 15px 0px;
+    }
+    .title-avk p {
+        background: #FFF;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-grid{
+        width: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .column-footer-vk h4 {
+        border-bottom: 2px solid #EEE;
+        color: #999999;
+        font: 400 14px 'Source Sans Pro', sans-serif;
+        margin-bottom: 10px;
+        padding-bottom: 2px;
+        padding-left: 10px;
+        text-transform: uppercase;
+    }
+    .column-footer-vk ul {
+        list-style: none;
+        display: block;
+        padding: 0;
+    }
+    .minHeight {
+        min-height: 145px;
+    }
+    .column-footer-vk .contato-footer-vk p {
+        display: inline;
+        font: 400 16px 'Source Sans Pro', sans-serif;
+        text-align: left;
+        text-decoration: none;
+        text-transform: none;
+        color: #999999;
+    }
+    .column-footer-vk {
+        margin-top: 2em;
+        text-align: left;
+    }          
+}
+
+/* Desktop grande */
+@media (min-width: 1200px) {
+    .mobile-component{
+        display: none;
+    }
+}
+
+/* Telefones em paisagem e abaixo */
+@media (max-width: 480px) {
+    .mobile-component{
+        display: block !important;
+    } 
+}
+
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 767px) {
+    .deskptop-Component{
+        display: none;
+    }
+    .mobile-component{
+        display: block !important;
+    }
+}
+
+/* ============ Responsivo ==============*/
