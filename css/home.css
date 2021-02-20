@@ -4,66 +4,67 @@
 
 } */
 
-.subNavBar{
+.subNavBar {
     padding-top: 0;
     padding-bottom: 0;
-    border-top: 1px solid #EEE;
-    border-bottom: 1px solid #EEE;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
 }
 
-.navbar-grid{
+.navbar-grid {
     width: auto;
 }
 
-.navbar-grid span > a{
+.navbar-grid span > a {
     margin-right: 15px;
     font-size: 13px;
-    color: #8D8D8D !important;
-    text-decoration: none;    
+    color: #8d8d8d !important;
+    text-decoration: none;
 }
 
-.hover-a:hover{
+.hover-a:hover {
     opacity: 0.8;
 }
 
-.nav-link-hover, li:hover > ul {
+.nav-link-hover,
+li:hover > ul {
     display: block;
 }
 
-.dropHover{
+.dropHover {
     top: 43px;
     left: auto;
     box-shadow: 3px 3px 6px rgb(0 0 0 / 16%);
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
-    border:0;
+    border: 0;
 }
 
-.dropHover a{
-    border-bottom: 1px solid #EEE;
+.dropHover a {
+    border-bottom: 1px solid #eee;
     text-transform: none;
     font-size: 14px;
     line-height: 22px;
     font-weight: 700;
     padding: 5px;
-    white-space: nowrap;   
+    white-space: nowrap;
     text-transform: uppercase;
-    color: #8D8D8D;
+    color: #8d8d8d;
 }
 
-.dropHover a:hover{
+.dropHover a:hover {
     color: red;
 }
 
-.active-link{
+.active-link {
     padding: 13px;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #8D8D8D !important;
+    color: #8d8d8d !important;
 }
 
-.active-link:hover{
+.active-link:hover {
     background-color: #fafafa;
     box-shadow: 3px 3px 6px rgb(0 0 0 / 16%);
     /* padding: 0 7px 7px; */
@@ -72,13 +73,12 @@
     height: max-content;
 }
 
-
-.carousel-inner img{
+.carousel-inner img {
     /* height: 1200px; */
     object-fit: contain;
 }
 
-.btn-Carroussel{
+.btn-Carroussel {
     border: none;
     height: 50px;
     width: 50px;
@@ -102,7 +102,7 @@
     color: rgb(0, 132, 74);
 }
 .service-item p {
-    color: #00844A;
+    color: #00844a;
     margin: 0 auto;
     margin-bottom: -4px;
     text-transform: uppercase;
@@ -135,8 +135,8 @@
 }
 
 .title-avk p {
-    background: #FFF;
-    color: #DD7B54;
+    background: #fff;
+    color: #dd7b54;
     display: inline-block !important;
     font: 400 26px "Source Sans Pro", sans-serif;
     margin: 0 auto;
@@ -146,7 +146,7 @@
 }
 
 .title-avk div {
-    background: #EEE;
+    background: #eee;
     height: 2px;
     width: 100%;
     position: absolute;
@@ -157,29 +157,29 @@
 
 .title-avk p span.title {
     padding: 0px;
-    color: #F8A774;
+    color: #f8a774;
     font: 400 26px "Source Sans Pro", sans-serif;
     position: relative;
     margin: 0 auto;
     border-radius: 10px 0px 10px 0px;
 }
 
-.cardHeader{
+.cardHeader {
     padding: 0;
 }
 
-.cardHeader img{
+.cardHeader img {
     max-height: 300px;
     object-fit: cover;
     object-position: top;
 }
 
 .newsletter-footer {
-    background: #00844A;
+    background: #00844a;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 5px;
-    color: #EEE;
+    color: #eee;
 }
 
 .newsletter-footer p span {
@@ -195,25 +195,56 @@
 }
 .contato-footer-vk ul li p {
     text-transform: none;
-    font: 400 16px 'Source Sans Pro', sans-serif;
+    font: 400 16px "Source Sans Pro", sans-serif;
     color: #999999;
+}
+
+.payment-vk {
+    text-align: left;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    min-height: auto;
+}
+
+.payment-vk img {
+    height: 28px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin: 0 auto;
+    border: 1px solid #e8e8e8;
+}
+
+.contato-footer-vk ul li {
+    margin-bottom: 10px;
+}
+
+.contato-footer-vk svg{
+    color: #f05328;
+}
+
+.column-footer-vk ul {
+    display: inline-block;
+    list-style: outside none none;
+    padding-top: 0px;
+    padding-left: 0px;
+    font-size: 14px;
+    color: #828282;
 }
 
 /* ============ Fim conteudo ==============*/
 
 /* ============ Utilits ==============*/
 
-.mt3{
+.mt3 {
     margin-top: 30px;
 }
 
 /* ============ Fim utilis ==============*/
 
-
 /* ============ Responsivo ==============*/
 
 @media only screen and (min-width: 700px) {
-    .navbar-grid{
+    .navbar-grid {
         width: 100%;
     }
     .service-item {
@@ -227,7 +258,7 @@
     .service-content {
         width: 25%;
         border-bottom: none;
-        border-right: 1px solid #DDDDDD;
+        border-right: 1px solid #dddddd;
         margin-bottom: 15px;
     }
     .title-avk {
@@ -236,25 +267,25 @@
         margin: 10px 0px 15px 0px;
     }
     .title-avk p {
-        background: #FFF;
+        background: #fff;
         margin-left: 15px;
     }
 }
 
 @media only screen and (min-width: 992px) {
-    .navbar-grid{
+    .navbar-grid {
         width: auto;
     }
 }
 
 @media only screen and (min-width: 1000px) {
     .column-footer-vk h4 {
-        border-bottom: 2px solid #EEE;
+        border-bottom: 2px solid #eee;
         color: #999999;
-        font: 400 14px 'Source Sans Pro', sans-serif;
+        font: 400 14px "Source Sans Pro", sans-serif;
         margin-bottom: 10px;
         padding-bottom: 2px;
-        padding-left: 10px;
+        /* padding-left: 10px; */
         text-transform: uppercase;
     }
     .column-footer-vk ul {
@@ -267,7 +298,7 @@
     }
     .column-footer-vk .contato-footer-vk p {
         display: inline;
-        font: 400 16px 'Source Sans Pro', sans-serif;
+        font: 400 16px "Source Sans Pro", sans-serif;
         text-align: left;
         text-decoration: none;
         text-transform: none;
@@ -276,31 +307,56 @@
     .column-footer-vk {
         margin-top: 2em;
         text-align: left;
-    }          
+    }
+    .payment-vk img {
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
 }
 
 /* Desktop grande */
 @media (min-width: 1200px) {
-    .mobile-component{
+    .mobile-component {
         display: none;
     }
 }
 
 /* Telefones em paisagem e abaixo */
 @media (max-width: 480px) {
-    .mobile-component{
+    .mobile-component {
         display: block !important;
-    } 
+    }
 }
 
 /* Telefones em paisagem a tablet em retrato */
 @media (max-width: 767px) {
-    .deskptop-Component{
+    .deskptop-Component {
         display: none;
     }
-    .mobile-component{
+    .mobile-component {
         display: block !important;
     }
 }
 
+@media (max-width: 1000px) {
+    .column-footer-vk h4 {
+        display: inline-block;
+        background: #eee;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #666;
+        width: 100%;
+        font-size: 15px;
+    }
+    .column-footer-vk ul {
+        text-align: center;
+        width: 100%;
+    }
+    .minHeight{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    }  
+}
 /* ============ Responsivo ==============*/
