@@ -16,7 +16,7 @@
 }
 
 .navbar-grid span > a {
-    margin-right: 15px;
+    /* margin-right: 15px; */
     font-size: 13px;
     color: #8d8d8d !important;
     text-decoration: none;
@@ -231,12 +231,57 @@ li:hover > ul {
     color: #828282;
 }
 
+.box-cadastro {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid #00A574;
+    /* background: #FFFFFF !important; */
+}
+
+.box-cadastro h3 {
+    margin-top: 0px;
+    color: #FFF;
+    font: 400 20px/56px 'Source Sans Pro', sans-serif;
+    height: 60px;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    background: #00A574;
+}
+
+.box-cadastro p {
+    font: 12px 'Source Sans Pro', sans-serif;
+    color: #666;
+    margin-top: 1.2em;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.box-linha {
+    border-bottom: 1px solid #666;
+    height: 1em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.box-container {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
 /* ============ Fim conteudo ==============*/
 
 /* ============ Utilits ==============*/
 
 .mt3 {
     margin-top: 30px;
+}
+
+.form-edit{
+    margin-bottom: 0.8em;
 }
 
 /* ============ Fim utilis ==============*/
