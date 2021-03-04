@@ -74,8 +74,9 @@ li:hover > ul {
 }
 
 .carousel-inner img {
-    /* height: 1200px; */
     object-fit: contain;
+    min-width: 900px;
+    max-height: 580px;
 }
 
 .btn-Carroussel {
@@ -272,6 +273,141 @@ li:hover > ul {
     padding-bottom: 30px;
 }
 
+.carousel-indicators button{
+    border:none;
+    padding: 0px 2px;
+    background: transparent;
+}
+
+.carousel-indicators img{
+    width: 30px;
+}
+
+.zoomWindowContainer{
+    width: max-content !important;
+}
+
+.zoomContainer{
+    width: max-content !important;
+}
+
+.gl-heading--regular {
+    font-family: "HelveticaNeue-CondensedBold",Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    /* margin-bottom: 20px; */
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 32px;
+}
+
+.sidebar{
+    /* padding: 30px 0; */
+    background: #fff;
+    /* min-height: 100vh; */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.gl-label{
+    display: block;
+    color: #000;
+    margin-bottom: 0;
+    font-size: 14px;
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: normal;
+}
+
+.gl-price-item{
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.gl-fonte-titulo{
+    font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0;
+    font-weight: bold
+}
+
+.gl-fonte{
+    letter-spacing: 0;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.btn-Numero{
+    padding: 1.2rem;
+    border: 1px solid #ebedee;
+}
+.btn-Numero:hover {
+    color: #fff;
+    background-color: #000;
+    /* font-size: 17px; */
+    font-weight: 600;
+}
+
+.btn-Numero:focus{
+    color: #fff;
+    background-color: #000;
+    /* font-size: 17px; */
+    font-weight: 600;
+}
+
+.btn-Carrinho{
+    align-items: center;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: flex-start;
+    line-height: 50px;
+    min-height: 50px;
+    padding: 0 21px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: transform .1s cubic-bezier(0.3, 0, 0.45, 1),color .1s cubic-bezier(0.3, 0, 0.45, 1),border .1s cubic-bezier(0.3, 0, 0.45, 1),background .1s cubic-bezier(0.3, 0, 0.45, 1);
+    white-space: nowrap;
+    width: auto;
+}
+
+.btn-Carrinho-primary {
+    background-color: #000;
+    border-color: #fff;
+    color: #fff;
+    height: 50px;
+}
+
+.btn-Carrinho-full-width {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn-Carrinho-full-width-cta {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: "AdihausDIN",Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.btn-Carrinho-primary:focus {
+    transform: translate(-3px, -3px);
+}
+
+.fontPequena{
+    font-size: 13px;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
 /* ============ Fim conteudo ==============*/
 
 /* ============ Utilits ==============*/
@@ -371,6 +507,10 @@ li:hover > ul {
     .mobile-component {
         display: block !important;
     }
+    .carousel-inner img {
+        min-width: auto;
+        max-height: fit-content;
+    }
 }
 
 /* Telefones em paisagem a tablet em retrato */
@@ -402,6 +542,10 @@ li:hover > ul {
     .minHeight{
     margin-top: 10px;
     margin-bottom: 30px;
-    }  
+    }
+    .carousel-inner img {
+        min-width: auto;
+        max-height: fit-content;
+    }     
 }
 /* ============ Responsivo ==============*/
